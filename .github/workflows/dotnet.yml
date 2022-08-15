@@ -37,3 +37,4 @@ jobs:
         PROJECT_FILE_PATH: TRENZ.Docs.API.AuthLib/TRENZ.Docs.API.AuthLib.csproj
         INCLUDE_SYMBOLS: true
         VERSION_STATIC: 1.0.0
+        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
