@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRENZ.Docs.API.AuthLib", "TRENZ.Docs.API.AuthLib\TRENZ.Docs.API.AuthLib.csproj", "{4BDC0D85-8A80-41A6-9F8B-3FA523AD0C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRENZ.Docs.API.AuthLib.Test", "TRENZ.Docs.API.AuthLib.Test\TRENZ.Docs.API.AuthLib.Test.csproj", "{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BDC0D85-8A80-41A6-9F8B-3FA523AD0C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDC0D85-8A80-41A6-9F8B-3FA523AD0C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDC0D85-8A80-41A6-9F8B-3FA523AD0C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDC0D85-8A80-41A6-9F8B-3FA523AD0C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
