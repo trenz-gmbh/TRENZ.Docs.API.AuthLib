@@ -3,6 +3,20 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>enable</Nullable>
+        <LangVersion>default</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Library for developing IAuthProvider implementations for TRENZ Docs</Description>
+        <Copyright>2022 TRENZ GmbH</Copyright>
+        <PackageProjectUrl>https://github.com/trenz-gmbh/TRENZ.Docs.API.AuthLib</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/trenz-gmbh/TRENZ.Docs.API.AuthLib</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Nerdbank.GitVersioning" Version="3.5.109">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
 
 </Project>

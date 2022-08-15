@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRENZ.Docs.API.AuthLib", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRENZ.Docs.API.AuthLib.Test", "TRENZ.Docs.API.AuthLib.Test\TRENZ.Docs.API.AuthLib.Test.csproj", "{7D9564D9-1D0B-454D-9AA0-D4876D81B0BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBF326EB-6B0D-4466-BC20-9A1BA8059BE7}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		version.json = version.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
